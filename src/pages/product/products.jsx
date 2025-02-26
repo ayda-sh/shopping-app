@@ -1,4 +1,5 @@
-const Products = () => {
+const Products = (item) => {
+    
   return (
    
       <div className="flex justify-between w-[800px] border border-[#1E293B0A] rounded-2xl p-5 items-center">
@@ -16,9 +17,9 @@ const Products = () => {
         </div>
 
         <div className="flex gap-7">
-          <button className="text-[#CBD5E1] border border-[#CBD5E1] w-[25px] h-[25px] rounded-lg hover:bg-[#F97316] hover:text-white hover:border-[#F97316]">-</button>
+          <button className="text-[#CBD5E1] border-2 border-[#CBD5E1] w-[25px] h-[25px] rounded-lg hover:bg-[#F97316] hover:text-white hover:border-[#F97316]">-</button>
           <span>0</span>
-          <button className="text-[#CBD5E1] border border-[#CBD5E1] w-[25px] h-[25px] rounded-lg hover:bg-[#F97316] hover:text-white hover:border-[#F97316]">+</button>
+          <button className="text-[#CBD5E1] border-2 border-[#CBD5E1] w-[25px] h-[25px] rounded-lg hover:bg-[#F97316] hover:text-white hover:border-[#F97316]">+</button>
         </div>
       </div>
    
