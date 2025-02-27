@@ -1,3 +1,5 @@
+import { NavLink } from "react-router-dom";
+
 const LogInForm = () => {
   return (
     <div className="container mx-auto flex justify-center mb-11">
@@ -33,7 +35,7 @@ const LogInForm = () => {
           <p className="text-[#cccccc]">
             I don’t have an account ?
             <span className="text-[#ef7554]">
-              <NavLink to="/signup">Sign up</NavLink>
+              <NavLink to="signup">Sign up</NavLink>
             </span>
           </p>
         </div>

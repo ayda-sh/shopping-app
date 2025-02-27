@@ -18,6 +18,9 @@ const Navigation = () => {
           <a href="#" class="text-[#1E293B] hover:text-[#F06908] font-bold">
             <NavLink to="/signup">Sign up</NavLink>
           </a>
+          <a href="#" class="text-[#1E293B] hover:text-[#F06908] font-bold">
+            <NavLink to="/login">Login</NavLink>
+          </a>
           <div class="relative ml-10">
             <img src="src/assets/shopping-cart.svg" alt="" />
             <span class="absolute top-0 right-0 transform translate-x-1/2 -translate-y-1/2 inline-flex items-center justify-center w-4 h-4 bg-red-500 text-white text-xs font-bold rounded-full">
