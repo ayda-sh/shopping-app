@@ -49,6 +49,8 @@ const Cart = () => {
     return total + (Number(item.price) || 0);
   }, 0)
 
+ 
+
   return (
     <main className="container mx-auto px-4 flex justify-center">
       <div className="flex gap-3 flex-col">
