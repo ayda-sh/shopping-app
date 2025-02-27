@@ -3,6 +3,7 @@ import Navigation from "./components/nabvar/navbar";
 import Cart from "./pages/cart/cart";
 import SignUp from "./pages/signUp/signUp";
 import LogIn from "./pages/logIn/logIn";
+import { ToastContainer } from "react-toastify";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         <Route path="signup" element={<SignUp/>} />
         <Route path="login" element={<LogIn/>} />
       </Routes>
+      <ToastContainer/>
     </div>
   );
 }
